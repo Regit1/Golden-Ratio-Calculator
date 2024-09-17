@@ -4,6 +4,8 @@ let b = 0;
 const inputValue = document.getElementById('inputValue');
 const calculateBtn = document.getElementById('calculateBtn');
 const outputDiv = document.getElementById('output');
+const linkButton = document.getElementById('linkButton');
+
 
 function appendToOutput(text) {
     outputDiv.innerHTML = text;
