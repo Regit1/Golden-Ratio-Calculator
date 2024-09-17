@@ -21,10 +21,10 @@ function calculateRatio() {
     b = 0;
     
     for (let i = 0; i < x; i++) {
-        [a, b] = [a + b, b];
+        [a, b] = [a + b, a];
     }
     
-    let y = a;
+    let y = a + b;
     
     const quotient = y / a;
     
