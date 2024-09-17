@@ -24,7 +24,7 @@ function calculateRatio() {
         [a, b] = [a + b, b];
     }
     
-    let y = a + b;
+    let y = a;
     
     const quotient = y / a;
     
